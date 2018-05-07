@@ -53,6 +53,11 @@
   <ItemGroup>
     <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="Interfaces\IUnitOfWork.cs" />
+    <Compile Include="Migrations\201805071236462_InitialCreate.cs" />
+    <Compile Include="Migrations\201805071236462_InitialCreate.Designer.cs">
+      <DependentUpon>201805071236462_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PhotographyContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\Repository.cs" />
@@ -67,6 +72,11 @@
       <Project>{2d2e108b-d5d3-4ac5-a99f-2f5624bab1d0}</Project>
       <Name>Photography.Models</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201805071236462_InitialCreate.resx">
+      <DependentUpon>201805071236462_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
