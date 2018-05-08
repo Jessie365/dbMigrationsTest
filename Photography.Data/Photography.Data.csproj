@@ -73,9 +73,9 @@
     <Compile Include="Migrations\201805081644079_AddPhotographerBudget.Designer.cs">
       <DependentUpon>201805081644079_AddPhotographerBudget.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201805081624476_AddThirdCamera.cs" />
-    <Compile Include="Migrations\201805081624476_AddThirdCamera.Designer.cs">
-      <DependentUpon>201805081624476_AddThirdCamera.cs</DependentUpon>
+    <Compile Include="Migrations\201805081724476_AddThirdCamera.cs" />
+    <Compile Include="Migrations\201805081724476_AddThirdCamera.Designer.cs">
+      <DependentUpon>201805081724476_AddThirdCamera.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PhotographyContext.cs" />
@@ -111,8 +111,8 @@
     <EmbeddedResource Include="Migrations\201805081644079_AddPhotographerBudget.resx">
       <DependentUpon>201805081644079_AddPhotographerBudget.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805081624476_AddThirdCamera.resx">
-      <DependentUpon>201805081624476_AddThirdCamera.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201805081724476_AddThirdCamera.resx">
+      <DependentUpon>201805081724476_AddThirdCamera.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

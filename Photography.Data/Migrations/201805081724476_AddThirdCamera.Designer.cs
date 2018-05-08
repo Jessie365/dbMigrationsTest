@@ -13,7 +13,7 @@ namespace Photography.Data.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201805081624476_AddThirdCamera"; }
+            get { return "201805081724476_AddThirdCamera"; }
         }
         
         string IMigrationMetadata.Source
