@@ -69,6 +69,10 @@
     <Compile Include="Migrations\201805081057123_Merge.Designer.cs">
       <DependentUpon>201805081057123_Merge.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201805081644079_AddPhotographerBudget.cs" />
+    <Compile Include="Migrations\201805081644079_AddPhotographerBudget.Designer.cs">
+      <DependentUpon>201805081644079_AddPhotographerBudget.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PhotographyContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -99,6 +103,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201805081057123_Merge.resx">
       <DependentUpon>201805081057123_Merge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805081644079_AddPhotographerBudget.resx">
+      <DependentUpon>201805081644079_AddPhotographerBudget.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
