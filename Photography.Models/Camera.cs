@@ -34,6 +34,8 @@
         [InverseProperty("SecondaryCamera")]
         public virtual ICollection<Photographer> SecondaryCameraOwners { get; set; }
 
+        public double Price { get; set; }
+
         public string BatteryType { get; set; }
     }
 }
