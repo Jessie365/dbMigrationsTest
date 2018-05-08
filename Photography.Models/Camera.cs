@@ -33,5 +33,7 @@
 
         [InverseProperty("SecondaryCamera")]
         public virtual ICollection<Photographer> SecondaryCameraOwners { get; set; }
+
+        public string BatteryType { get; set; }
     }
 }

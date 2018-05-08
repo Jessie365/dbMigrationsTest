@@ -57,6 +57,10 @@
     <Compile Include="Migrations\201805071236462_InitialCreate.Designer.cs">
       <DependentUpon>201805071236462_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201805081009508_AddCamBattery.cs" />
+    <Compile Include="Migrations\201805081009508_AddCamBattery.Designer.cs">
+      <DependentUpon>201805081009508_AddCamBattery.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PhotographyContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -76,6 +80,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201805071236462_InitialCreate.resx">
       <DependentUpon>201805071236462_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805081009508_AddCamBattery.resx">
+      <DependentUpon>201805081009508_AddCamBattery.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
