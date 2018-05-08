@@ -24,7 +24,9 @@
 
         [PhoneNumberValidation]
         public string Phone { get; set; }
-        
+
+        public decimal Budget { get; set; }
+
         [Required]
         public virtual Camera PrimaryCamera { get; set; }
         
