@@ -33,6 +33,8 @@
         [Required]
         public virtual Camera SecondaryCamera { get; set; }
 
+        public virtual Camera ThirdCamera { get; set; }
+
         public virtual ICollection<Lens> Lenses { get; set; }
 
         public virtual ICollection<Accessory> Accessories { get; set; }

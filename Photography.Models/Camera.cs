@@ -11,6 +11,7 @@
         {
             this.PrimaryCameraOwners = new HashSet<Photographer>();
             this.SecondaryCameraOwners = new HashSet<Photographer>();
+            this.ThirdCameraOwners = new HashSet<Photographer>();
         }
 
         public int Id { get; set; }
@@ -33,6 +34,9 @@
 
         [InverseProperty("SecondaryCamera")]
         public virtual ICollection<Photographer> SecondaryCameraOwners { get; set; }
+
+        [InverseProperty("ThirdCamera")]
+        public virtual ICollection<Photographer> ThirdCameraOwners { get; set; }
 
         public double Price { get; set; }
 
