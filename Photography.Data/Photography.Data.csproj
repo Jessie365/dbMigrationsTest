@@ -65,6 +65,10 @@
     <Compile Include="Migrations\201805081022012_AddCamPrice.Designer.cs">
       <DependentUpon>201805081022012_AddCamPrice.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201805081057123_Merge.cs" />
+    <Compile Include="Migrations\201805081057123_Merge.Designer.cs">
+      <DependentUpon>201805081057123_Merge.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PhotographyContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -92,6 +96,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201805081022012_AddCamPrice.resx">
       <DependentUpon>201805081022012_AddCamPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805081057123_Merge.resx">
+      <DependentUpon>201805081057123_Merge.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

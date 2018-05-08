@@ -1,6 +1,7 @@
 namespace Photography.Data
 {
     using Models;
+    using Photography.Data.Migrations;
     using System.Data.Entity;
 
     public class PhotographyContext : DbContext
@@ -8,6 +9,7 @@ namespace Photography.Data
         public PhotographyContext()
             : base("name=PhotographyContext")
         {
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<PhotographyContext, Configuration>());
         }
          public virtual DbSet<Accessory> Accessories { get; set; }
 
